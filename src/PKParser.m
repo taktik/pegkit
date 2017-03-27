@@ -134,6 +134,7 @@ NSString * const PEGKitRecognitionPredicateFailed = @"Predicate failed";
     self.tokenKindTab = nil;
     self.tokenKindNameTab = nil;
     self.resyncSet = nil;
+    self.tokenSource = nil;
     self.startRuleName = nil;
     self.statementTerminator = nil;
     self.singleLineCommentMarker = nil;
@@ -909,7 +910,7 @@ NSString * const PEGKitRecognitionPredicateFailed = @"Predicate failed";
 }
 
 
-- (NSArray *)reversedArray:(NSArray *)inArray {
+- (NSMutableArray *)reversedArray:(NSArray *)inArray {
     return [inArray reversedMutableArray];
 }
 
