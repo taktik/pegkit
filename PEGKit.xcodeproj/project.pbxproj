@@ -803,7 +803,7 @@
 		D3BD39651729D37600FC6549 /* PGPreCallbackSyntaxInteriorTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PGPreCallbackSyntaxInteriorTemplate.txt; path = res/PGPreCallbackSyntaxInteriorTemplate.txt; sourceTree = "<group>"; };
 		D3BD39751729F1DD00FC6549 /* PGPostCallbackSyntaxLeafTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PGPostCallbackSyntaxLeafTemplate.txt; path = res/PGPostCallbackSyntaxLeafTemplate.txt; sourceTree = "<group>"; };
 		D3BD39761729F1DD00FC6549 /* PGPreCallbackSyntaxLeafTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PGPreCallbackSyntaxLeafTemplate.txt; path = res/PGPreCallbackSyntaxLeafTemplate.txt; sourceTree = "<group>"; };
-		D3BD3A75172DC75600FC6549 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3BD3A75172DC75600FC6549 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3C221910FFE8B8C004514FE /* PKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKTypes.h; path = include/PEGKit/PKTypes.h; sourceTree = SOURCE_ROOT; };
 		D3C221960FFE8B95004514FE /* PKReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKReader.h; path = include/PEGKit/PKReader.h; sourceTree = SOURCE_ROOT; };
 		D3C221990FFE8B9D004514FE /* PKAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKAssembly.h; path = include/PEGKit/PKAssembly.h; sourceTree = SOURCE_ROOT; };
@@ -2514,6 +2514,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "res/PEGKit-Info.plist";
 				LLVM_LTO = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = PEGKit;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -2538,6 +2539,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "res/PEGKit-Info.plist";
 				LLVM_LTO = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = PEGKit;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;

@@ -87,6 +87,11 @@
     [super windowControllerDidLoadNib:wc];
     
     [_textView setFont:[NSFont fontWithName:@"Monaco" size:12.0]];
+    
+    self.textView.automaticQuoteSubstitutionEnabled = NO;
+    self.textView.automaticDashSubstitutionEnabled = NO;
+    self.textView.automaticTextReplacementEnabled = NO;
+    
     [self focusTextView];
 }
 
